@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Arrays;
 import java.util.List;
 
-@CrossOrigin (origins ={"http://localhost:5173/"})
+@CrossOrigin (origins ={"http://localhost:5173/", "https://webtech-frontend-d00r.onrender.com", "https://webtech-backend-6ifr.onrender.com/"})
 @RestController
 @RequestMapping("/ToDos")
 public class ToDoController {
