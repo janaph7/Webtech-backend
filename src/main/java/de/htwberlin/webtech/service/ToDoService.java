@@ -17,4 +17,8 @@ public class ToDoService {
     public ToDo get(Long id) {
         return toDoRepository.findById(id).orElseThrow(() -> new RuntimeException("ToDo not found"));
     }
+
+   public Iterable<ToDo> getalltodos() {
+    return toDoRepository.findAll();
+}
 }
