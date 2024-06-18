@@ -21,6 +21,8 @@ dependencies {
     implementation 'javax.persistence:javax.persistence-api:2.2' // Oder die entsprechende Version
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    runtimeOnly 'org.postgresql:postgresql'
+    //runtimeOnly 'com.oracle.database.jdbc:ojdbc8:'
 }
 
 tasks.named('test') {
