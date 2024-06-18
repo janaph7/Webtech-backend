@@ -10,5 +10,4 @@ public class HelloWorldController {
     public String showHelloWorldPage() {
         return "hello world hi there";
     }
-
 }
