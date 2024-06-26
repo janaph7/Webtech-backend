@@ -12,5 +12,5 @@ LABEL authors="jana pham, elisa khoury"
 # Package stage
 #
 FROM eclipse-temurin:17-jdk-jammy
-COPY --from=builder /build/libs/webtechbackend-0.0.1-SNAPSHOT.jar /
-ENTRYPOINT ["java","-jar","-Dspring.profiles.active=prod","/webtechbackend-0.0.1-SNAPSHOT.jar"]
+COPY --from=build /home/gradle/src/build/libs/webtechbackend-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java","-jar","-Dspring.profiles.active=prod","/app.jar"]
