@@ -4,7 +4,6 @@ package de.htwberlin.webtech.web;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "todos")
 public class ToDo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
