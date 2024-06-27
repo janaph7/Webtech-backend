@@ -17,3 +17,4 @@ ENTRYPOINT ["java","-jar","-Dspring.profiles.active=prod","/webtechbackend-0.0.1
 
 
 
+
