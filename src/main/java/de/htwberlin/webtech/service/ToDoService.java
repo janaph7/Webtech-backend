@@ -11,6 +11,7 @@ public class ToDoService {
     ToDoRepository toDoRepository;
 
     public ToDo save(ToDo toDo) {
+
         return toDoRepository.save(toDo);
     }
 
@@ -19,6 +20,7 @@ public class ToDoService {
     }
 
    public Iterable<ToDo> getalltodos() {
-    return toDoRepository.findAll();
+
+        return toDoRepository.findAll();
 }
 }
