@@ -23,4 +23,9 @@ public class ToDoService {
 
         return toDoRepository.findAll();
 }
+
+    public void delete(Long id) {
+        toDoRepository.deleteById(id);
+    }
+
 }
