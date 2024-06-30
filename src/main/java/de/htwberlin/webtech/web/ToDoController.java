@@ -12,7 +12,7 @@ public class ToDoController {
     ToDoService toDoService;
 
     @CrossOrigin
-    @GetMapping("/getToDos")
+    @GetMapping("/getTodos")
     public Iterable<ToDo> getToDos() {
         return toDoService.getalltodos();
     }
@@ -24,7 +24,7 @@ public class ToDoController {
     }
 
     @CrossOrigin
-    @DeleteMapping("deleteToDos/{id}")
+    @DeleteMapping("deleteTodos/{id}")
     public void deleteToDo(@PathVariable String id) {
         Long entryId = Long.parseLong(id);
         toDoService.delete(entryId);
