@@ -4,7 +4,7 @@ import de.htwberlin.webtech.service.ToDoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin (origins ={"http://localhost:5173/", "https://webtech-frontend-ve54.onrender.com", "https://webtech-backend-6ifr.onrender.com/ToDos"})
+@CrossOrigin (origins ={"http://localhost:5173/", "https://webtech-frontend-ve54.onrender.com", "https://webtech-backend-6ifr.onrender.com/todos"})
 @RestController
 @RequestMapping("/ToDos")
 public class ToDoController {
