@@ -24,7 +24,7 @@ public class ToDoController {
     }
 
     @DeleteMapping
-    @RequestMapping("deleteTodos/{id}")
+    @RequestMapping("deleteToDos/{id}")
     public void deleteToDo(@PathVariable String id) {
         Long entryId = Long.parseLong(id);
         toDoService.delete(entryId);
