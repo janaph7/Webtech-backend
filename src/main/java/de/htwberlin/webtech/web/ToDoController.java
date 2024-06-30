@@ -18,7 +18,7 @@ public class ToDoController {
     }
 
     @PostMapping
-    @RequestMapping("/todos")
+    @RequestMapping("/ToDos")
     public ToDo createToDo(@RequestBody ToDo toDo) {
         return toDoService.save(toDo);
     }
