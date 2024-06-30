@@ -2,7 +2,7 @@
 Diese Anwendung ist eine ToDo-Listen-App, die es Benutzern ermöglicht, Aufgaben zu erstellen, zu verwalten und zu verfolgen. Sie besteht aus einem Backend (Java, Spring Boot) und einem Frontend (Vue.js).
 
 Nutzung
-Öffnen Sie den Browser und navigieren Sie zu http://localhost:5173.
+Öffnen Sie den Browser und navigieren Sie zu https://webtech-frontend-ve54.onrender.com/.
 Wählen Sie zuerst eine der bereits vorhandenen Kategerien aus oder erstellen Sie eine neue. 
 Erstellen Sie eine neue Aufgabe, indem Sie den Aufgabentitel eingeben und auf "Hinzufügen" klicken.
 Markieren Sie Aufgaben als erledigt, indem Sie auf das Kontrollkästchen neben der Aufgabe klicken.
